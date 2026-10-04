@@ -1,0 +1,15 @@
+{
+  "chip" : "Apple M4 Max",
+  "fans" : [
+    { "actual_rpm" : 2498.6, "forced_rpm" : 2500, "id" : 0, "max_rpm" : 5777, "min_rpm" : 1350, "mode" : 1, "target_rpm" : 2500 },
+    { "actual_rpm" : 1472.9, "id" : 1, "max_rpm" : 5777, "min_rpm" : 1350, "mode" : 0, "target_rpm" : 1350 }
+  ],
+  "model" : "Mac16,5",
+  "pid" : 412,
+  "temps" : {
+    "cpu" : [ { "c" : 47.2, "key" : "Tex0" }, { "c" : 48.1, "key" : "Tex1" }, { "c" : 46.9, "key" : "Tex2" }, { "c" : 47.5, "key" : "Tex3" } ],
+    "gpu" : [ { "c" : 37.1, "key" : "Tg0Y" }, { "c" : 43.4, "key" : "Tg0S" }, { "c" : 37.0, "key" : "Tg1F" }, { "c" : 43.2, "key" : "Tg1V" } ]
+  },
+  "ts" : 1782000000,
+  "writes" : { "boot_time" : 1781990000, "budget" : 100, "last" : { "key" : "F0Tg", "result" : "0x00", "ts" : 1781999990 }, "remaining" : 63, "used" : 37, "wedged" : false }
+}
